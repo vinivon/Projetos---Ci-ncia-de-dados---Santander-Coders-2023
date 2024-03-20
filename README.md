@@ -1,8 +1,8 @@
->  # Santander Coders 2023 - Data Science
+# Santander Coders 2023 - Data Science
 
  
 
-<center><h3>Projetos<h3></center>
+# Projetos
 
 
 
