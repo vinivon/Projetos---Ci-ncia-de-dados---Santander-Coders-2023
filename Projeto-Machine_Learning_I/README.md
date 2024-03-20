@@ -2,60 +2,50 @@
 
  
 
-<center><h3>Projeto: Técnicas de Programação I<h3></center>
+<center><h3>Projeto: Machine Learning I<h3></center>
 
 
 
-<p align="center">
-  <img width="720" height="420" src="https://i0.wp.com/jornal.usp.br/wp-content/uploads/2019/09/20190920_00_biodiversidade3.jpg?fit=800%2C420&ssl=1">
-</p>
+Projeto Turma 970 - Machine Learning I
 
-**Descrição:**<br>
+Descrição do Trabalho:
 
-Este projeto faz parte do processo avaliativo do módulo de "Técnicas de programação I" do programa "Santander Coders 2023 - Data Science" e tem como finalidade aplicar as técnicas aprendidas em aula para criar uma análise exploratória sobre um conjunto de dados.<br>  
+O objetivo deste projeto é aplicar técnicas de Machine Learning para determinar se o sujeito vai ter ou não avc a partir de uma base de dados fornecida. O conjunto de dados utilizado para este projeto é "Stroke Prediction Dataset", disponível no Kaggle: https://www.kaggle.com/competitions/playground-series-s3e2/data?select=train.csv.
 
-**Objetivo:**<br>
+Análise do Dataset:
 
-Realizar uma análise exploratória de dados utilizando datasets relacionados ao Brasil. Estruturar a análise criando um storytelling: Uma história contada com informações, gráficos, imagens e medidas estatísticas, associando dados a fatos.
+Exploração inicial do conjunto de dados para entender suas características.
+Identificação das variáveis relevantes para o problema de determinar o "Stroke".
+Tratamento de dados ausentes ou inconsistentes, se necessário.
 
-O presente projeto busca entender o comportamento das espécies em Unidades de Conservação incluídas na lista de risco de extinção. Para isso, foram realizadas análises a nível de bioma, região, estado e grupo taxonômico.
+Escolha dos Algoritmos:
 
-As categorias de espécies são classificadas da seguinte maneira:
-  <img width="720" height="420" src="https://salve.icmbio.gov.br/img/metodos-de-avaliacao.svg">
+É necessário escolher no mínimo três algoritmos para aplicar ao problema de predição de AVC.
+Alguns exemplos de algoritmos que podem ser escolhidos: Árvore de Decisão, Random Forest, KNN, MLP, Regressão Linear ou Regressão Logística.
+Deve haver justificativa para a escolha do(s) algoritmo(s) com base na adequação dos algoritmos para o problema em questão.
 
-Fonte: [https://salve.icmbio.gov.br/#/metodos-de-avaliacao](https://salve.icmbio.gov.br/#/metodos-de-avaliacao)<br>
+Amostragem de Dados:
 
+Qualquer técnica de amostragem de dados pode ser utilizada para preparar o conjunto de treinamento e teste.
+Exemplos de técnicas de amostragem incluem divisão aleatória, validação cruzada, bootstrap ou leave-one-out.
+A escolha da técnica de amostragem deve ser explicada e justificada.
 
+Implementação:
 
-**Dados:**<br>
+A implementação do projeto deve ser feita utilizando a linguagem de programação Python.
+O pacote obrigatório a ser utilizado é o scikit-learn (sklearn), que oferece uma ampla variedade de algoritmos de Machine Learning.
+Os demais pacotes utilizados ficam a critério dos alunos, podendo escolher livremente.
+O ambiente de execução do script python pode ser escolhido livremente (Google Colab, Jupyter Notebook, local...)
 
-O dataset escolhido para realizar a análise exploratória foi a base de dados de Espécies da Fauna em Unidades de Conservação Federais. Esta base de dados pode ser acessada através do [link](https://dados.gov.br/dados/conjuntos-dados/monitoramento-da-biodiversidade-em-unidades-de-conservacao-federais).
+Avaliação e Comparação dos Modelos:
 
-Além disso, foi utilizado um dataset complementar que traz as informações de desmatamento em Unidades de Conservação Federais. Esta base pode ser acessada em [link](https://dados.gov.br/dados/conjuntos-dados/incendios-em-unidades-de-conservacao-federais).<br>
+Deve haver treinamento e teste para os modelos escolhidos utilizando os dados amostrados.
+Os modelos devem ser avaliados com base em métricas adequadas para problemas de classificação, como acurácia, precisão, recall e F1-score.
+Os resultados dos modelos devem ser comparados e discutidos, identificando qual apresenta o melhor desempenho na tarefa de determinar a classe.
 
+Apresentação dos Resultados:
 
-
-**Conclusões**<br>
-
-- O bioma mais desmatado do Brasil, a Mata Atlântica, não possui monitoramento em suas Unidades de Conservação. Em consonância, o bioma Mata Atlântica é o que apresenta mais espécies inlcuídas na lista de risco de extinção, assim como apresenta o maior número de espécies extintas;
-- Não há espécies extintas em Unidades de Conservação Federais;
-- A quantidade de espécies ameaçadas de extinção presentes em unidades de conservação ambiental é inferior, se compoaradas às não presentes em áreas protegidas;
-- Os grupos mais significativos de espécies em risco são: peixes continentais, invertebrados terrestres e aves. Em contrapartida, os grupos menos presentes são: mamíferos aquáticos, invertebrados marinhos e anfíbios;
-- O grupo com mais espécies extintas é o das aves;
-- Os estados que mais apresentam espécies em risco são: Minas Gerais, Bahia e São Paulo, este último com o maior número de espécies extintas. Analogamente, sudeste e nordeste são as regiões mais significativas em termos de espécies ameaçadas.<br>
-
-
-
-**Componentes:**<br>
-
-- Eduardo Eckert - <a href="https://www.linkedin.com/in/eduardo-eckert/" target="_blank">LinkedIn</a>
-- Joelson Ferreira - <a href="https://www.linkedin.com/in/joelsons/" target="_blank">LinkedIn</a>
-- Paula Capuano - <a href="https://www.linkedin.com/in/paulacapuano/" target="_blank">LinkedIn</a>
-- Vagner Martins - <a href="https://www.linkedin.com/in/vagner-martins/" target="_blank">LinkedIn</a>
-- Vinícius Sohsten - <a href="https://www.linkedin.com/in/vinicius-sohsten/" target="_blank">LinkedIn</a><br>
-  
-**Professor:**<br>
-
-- Jorge Chamby-Diaz - [LinkedIn](https://www.linkedin.com/in/jchambyd/)
+Os alunos devem preparar uma apresentação final (podem escolher livremente como fazê-la) que inclua uma descrição do projeto, as etapas realizadas, os algoritmos escolhidos, os resultados obtidos e as conclusões alcançadas.
+É importante destacar os desafios encontrados durante o projeto e possíveis melhorias ou próximos passos que podem ser realizados.
 
 
