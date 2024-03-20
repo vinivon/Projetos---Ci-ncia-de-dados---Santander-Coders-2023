@@ -7,7 +7,7 @@
 
 
 **Descrição:**<br>
-Neste repositório, se encontram os projetos realizados no final dos módulos do programa [Ciência de Dados - Santander Coders 2023](https://www.linkedin.com/posts/adatechbr_santander-coders-2023-activity-7054461150486269952-ENtp/?originalSubdomain=br), este que teve 70 mil inscritos e apneas 300 selecionados para o curso na [ADA Tech](https://www.linkedin.com/school/adatechbr/).
+Neste repositório, se encontram os projetos realizados no final dos módulos do programa [Ciência de Dados - Santander Coders 2023](https://www.linkedin.com/posts/adatechbr_santander-coders-2023-activity-7054461150486269952-ENtp/?originalSubdomain=br), este que teve 70 mil inscritos e apenas 300 selecionados para o curso na [ADA Tech](https://www.linkedin.com/school/adatechbr/).
 <br>  
 
 **Tecnologias e Ferramentas Utilizadas no Decorrer do Curso**
